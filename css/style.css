@@ -1,84 +1,7 @@
 /* ========================================
-   Reset（Tailwind Preflight 相当の最小限リセット）
+   A案
+   リセット・共通スタイルは common.css
    ======================================== */
-*,
-::before,
-::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0 solid;
-}
-
-html {
-  line-height: 1.5;
-  -webkit-text-size-adjust: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-button {
-  color: inherit;
-  background: transparent;
-}
-
-[hidden] {
-  display: none !important;
-}
-
-/* ========================================
-   Base
-   ======================================== */
-:root {
-  font-family: "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
-  color: #4a4a47;
-  background: #f5f5f3;
-  font-synthesis: none;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  min-width: 320px;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-button,
-input,
-textarea {
-  font: inherit;
-}
-
-button,
-a {
-  -webkit-tap-highlight-color: transparent;
-}
-
 .site-shell {
   overflow: hidden;
 }
@@ -1142,6 +1065,13 @@ footer {
 
   .footer-bottom > span:nth-child(2) {
     display: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .site-header .variant-switch {
+    margin-left: auto;
+    margin-right: 12px;
   }
 }
 
