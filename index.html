@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>株式会社モチツモタレツ | Webアプリケーション開発</title>
+    <meta
+      name="description"
+      content="株式会社モチツモタレツは、Laravel / Vue / Nuxt / TypeScriptを中心に、Webアプリケーションの設計・開発・保守まで一貫して対応する少人数の開発チームです。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="logo" href="#top" aria-label="ホームへ">
+          <span class="logo-company">株式会社</span>
+          <span class="logo-wordmark">モチツモタレツ</span>
+        </a>
+        <nav class="nav" id="global-nav" aria-label="メインナビゲーション">
+          <a href="#company">私たちについて</a>
+          <a href="#service">SERVICE</a>
+          <a href="#team">DEVELOPMENT TEAM</a>
+          <a href="#works">WORKS</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
+        <button
+          class="menu-button"
+          type="button"
+          aria-label="メニューを開閉"
+          aria-expanded="false"
+          aria-controls="global-nav"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </header>
+
+      <main>
+        <section class="hero" id="top">
+          <div class="hero-content">
+            <p class="hero-eyebrow">SMALL TEAM, SOLID DEVELOPMENT.</p>
+            <h1>
+              Webアプリ開発を、
+              <br />
+              <span>少人数の開発チームで。</span>
+            </h1>
+            <p class="hero-copy">
+              Laravel / Vue / Nuxt / TypeScriptを中心に、
+              <br class="desktop-break" />
+              設計・開発・保守まで一貫して対応します。
+            </p>
+            <a class="text-link" href="#contact">
+              プロジェクトについて相談する
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="strengths" aria-label="対応の特徴">
+          <div class="strength-item">
+            <span class="strength-number">01</span>
+            <p>小〜中規模<br />案件対応</p>
+          </div>
+          <div class="strength-item">
+            <span class="strength-number">02</span>
+            <p>週1〜2日から<br />相談可能</p>
+          </div>
+          <div class="strength-item">
+            <span class="strength-number">03</span>
+            <p>1〜3名体制で<br />対応可能</p>
+          </div>
+          <div class="strength-item">
+            <span class="strength-number">04</span>
+            <p>フルリモート<br />対応可能</p>
+          </div>
+        </section>
+
+        <section class="section company" id="company">
+          <div class="section-heading">
+            <p class="section-kicker"><span>01</span>COMPANY</p>
+            <h2>私たちについて</h2>
+          </div>
+          <div class="company-grid">
+            <figure class="company-image">
+              <img
+                src="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=1400"
+                alt="光が差し込むシンプルなワークスペース"
+                loading="lazy"
+              />
+              <figcaption>OUR WORKSPACE / TOKYO</figcaption>
+            </figure>
+            <div class="company-message">
+              <p>つくるだけではなく、</p>
+              <p>ともに考え、育てる。</p>
+              <span>
+                私たちは、Webアプリケーション開発を得意とする小さな開発チームです。
+                事業や現場の課題に向き合い、必要なものを、必要なかたちで実装します。
+              </span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section service" id="service">
+          <div class="section-heading">
+            <p class="section-kicker"><span>02</span>SERVICE</p>
+            <h2>できること</h2>
+          </div>
+          <div class="service-intro">
+            <p>
+              Webアプリケーションの
+              <br />
+              設計から運用まで。
+            </p>
+            <span>
+              新規開発だけでなく、既存サービスの改善や保守など、
+              <br class="desktop-break" />
+              プロジェクトの状況に合わせて柔軟に対応します。
+            </span>
+          </div>
+          <div class="service-list">
+            <article class="service-item">
+              <span>01</span>
+              <h3>業務システム</h3>
+              <p>日々の業務フローに合わせた、使いやすいシステムを設計・開発します。</p>
+            </article>
+            <article class="service-item">
+              <span>02</span>
+              <h3>管理画面・SaaS</h3>
+              <p>サービス運営に必要な管理機能や、SaaSプロダクトの開発に対応します。</p>
+            </article>
+            <article class="service-item">
+              <span>03</span>
+              <h3>API開発</h3>
+              <p>外部サービスとの連携や、フロントエンドを支えるAPIを開発します。</p>
+            </article>
+            <article class="service-item">
+              <span>04</span>
+              <h3>機能追加・保守運用</h3>
+              <p>既存サービスの改善から、リリース後の継続的な運用まで支援します。</p>
+            </article>
+          </div>
+          <div class="technology">
+            <p>TECHNOLOGY</p>
+            <div>
+              <span>PHP</span>
+              <span>Laravel</span>
+              <span>JavaScript</span>
+              <span>TypeScript</span>
+              <span>Vue.js</span>
+              <span>Nuxt</span>
+              <span>MySQL</span>
+              <span>AWS</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section team" id="team">
+          <div class="section-heading">
+            <p class="section-kicker"><span>03</span>DEVELOPMENT TEAM</p>
+            <h2>開発チーム</h2>
+          </div>
+          <div class="team-grid">
+            <div class="team-copy">
+              <h3>
+                少人数だから、
+                <br />
+                情報が途切れない。
+              </h3>
+              <p>
+                私たちは3名で日常的にコミュニケーションを取り、プロジェクトの状況や判断を共有しています。
+                大人数のチームで起こりがちな伝達の遅れや連絡漏れを抑え、1〜3名の最適な体制でスムーズに開発を進めます。
+              </p>
+              <ul class="team-benefits">
+                <li>
+                  <strong>密な情報共有</strong>
+                  <span>メンバー間の距離が近く、仕様変更や課題をすぐに共有。認識のずれや連絡漏れを防ぎます。</span>
+                </li>
+                <li>
+                  <strong>スピーディーな意思決定</strong>
+                  <span>確認のための階層や会議を最小限にし、必要な判断を素早く開発へ反映します。</span>
+                </li>
+                <li>
+                  <strong>柔軟な役割分担</strong>
+                  <span>担当領域を越えて互いにカバーし、プロジェクトの状況に合わせて柔軟に動きます。</span>
+                </li>
+                <li>
+                  <strong>知識が蓄積する継続体制</strong>
+                  <span>同じメンバーが継続して関わることで、事業への理解を深めながら改善を重ねます。</span>
+                </li>
+              </ul>
+            </div>
+            <figure class="team-image">
+              <img
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=1200"
+                alt="ノートパソコンを囲んで共同作業をする開発チームのイメージ"
+                loading="lazy"
+              />
+              <figcaption>TEAM COLLABORATION</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section works" id="works">
+          <div class="section-heading">
+            <p class="section-kicker"><span>04</span>WORKS</p>
+            <h2>これまでの実績</h2>
+          </div>
+          <div class="works-list">
+            <article class="work-card">
+              <div class="work-number">01</div>
+              <div class="work-content">
+                <p class="work-type">BUSINESS SYSTEM</p>
+                <h3>製造業向け業務管理システム</h3>
+                <p class="work-description">複雑化していた受発注・在庫管理業務を一元化。要件整理から運用までを担当。</p>
+                <div class="work-meta">
+                  <div><span>Laravel</span><span>Vue.js</span><span>MySQL</span></div>
+                  <p>設計 / 開発 / 保守</p>
+                </div>
+              </div>
+            </article>
+            <article class="work-card">
+              <div class="work-number">02</div>
+              <div class="work-content">
+                <p class="work-type">FACILITY MANAGEMENT</p>
+                <h3>商業施設向けスタッフ管理システム</h3>
+                <p class="work-description">商業施設で働く従業員や作業員の情報・業務を一元管理するシステムを開発。</p>
+                <div class="work-meta">
+                  <div><span>Laravel</span><span>Vue.js</span><span>MySQL</span></div>
+                  <p>設計 / 開発</p>
+                </div>
+              </div>
+            </article>
+            <article class="work-card">
+              <div class="work-number">03</div>
+              <div class="work-content">
+                <p class="work-type">MATCHING PLATFORM</p>
+                <h3>IT案件・人材マッチングサービス</h3>
+                <p class="work-description">SES事業者向けに、開発案件とエンジニア人材を効率的につなぐサービスを開発。</p>
+                <div class="work-meta">
+                  <div><span>Laravel</span><span>Nuxt</span><span>TypeScript</span></div>
+                  <p>設計 / 開発 / 保守</p>
+                </div>
+              </div>
+            </article>
+            <article class="work-card">
+              <div class="work-number">04</div>
+              <div class="work-content">
+                <p class="work-type">TICKETING</p>
+                <h3>スポーツ団体向けチケット予約サービス</h3>
+                <p class="work-description">球場を訪れる団体客向けに、チケットの申込みから予約管理までを支援。</p>
+                <div class="work-meta">
+                  <div><span>Vue.js</span><span>API</span><span>AWS</span></div>
+                  <p>開発 / 運用</p>
+                </div>
+              </div>
+            </article>
+            <article class="work-card">
+              <div class="work-number">05</div>
+              <div class="work-content">
+                <p class="work-type">NOTIFICATION TOOL</p>
+                <h3>社内通知一元管理サービス</h3>
+                <p class="work-description">SlackやNotionなど複数ツールの通知をまとめ、確認・管理できる業務サービスを開発。</p>
+                <div class="work-meta">
+                  <div><span>Nuxt</span><span>TypeScript</span><span>API</span></div>
+                  <p>設計 / 開発</p>
+                </div>
+              </div>
+            </article>
+            <article class="work-card">
+              <div class="work-number">06</div>
+              <div class="work-content">
+                <p class="work-type">FINTECH</p>
+                <h3>資産運用ファンド募集プラットフォーム</h3>
+                <p class="work-description">ファンド情報の公開から募集・申込みまでをオンラインで完結するサービスを開発。</p>
+                <div class="work-meta">
+                  <div><span>Laravel</span><span>Vue.js</span><span>AWS</span></div>
+                  <p>設計 / 開発 / 保守</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <p class="works-note">※ 守秘義務により、社名・サービス名を伏せて掲載しています。</p>
+        </section>
+
+        <section class="section contact" id="contact">
+          <div class="section-heading">
+            <p class="section-kicker"><span>05</span>CONTACT</p>
+            <h2>お問い合わせ</h2>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-copy">
+              <h3>
+                開発パートナー・
+                <br />
+                案件のご相談はこちら
+              </h3>
+              <p>
+                まだ具体的な仕様が決まっていない段階でも大丈夫です。
+                <br />
+                まずは課題やご希望をお聞かせください。
+              </p>
+              <ul>
+                <li>開発リソースが足りない</li>
+                <li>小規模なWebシステムを開発したい</li>
+                <li>既存システムを改修したい</li>
+                <li>継続的に開発をお願いしたい</li>
+              </ul>
+            </div>
+            <div>
+              <form class="contact-form" id="contact-form">
+                <label>
+                  <span>会社名</span>
+                  <input name="company" type="text" placeholder="株式会社〇〇" />
+                </label>
+                <label>
+                  <span>お名前 <b>必須</b></span>
+                  <input name="name" type="text" placeholder="山田 太郎" required />
+                </label>
+                <label>
+                  <span>メールアドレス <b>必須</b></span>
+                  <input name="email" type="email" placeholder="hello@example.com" required />
+                </label>
+                <label>
+                  <span>ご相談内容 <b>必須</b></span>
+                  <textarea
+                    name="message"
+                    placeholder="プロジェクトの概要や、ご相談内容をご記入ください。"
+                    rows="5"
+                    required
+                  ></textarea>
+                </label>
+                <button class="submit-button" type="submit">
+                  送信内容を確認する
+                  <span aria-hidden="true">→</span>
+                </button>
+              </form>
+              <div class="form-success" id="form-success" role="status" hidden>
+                <span>THANK YOU</span>
+                <h3>お問い合わせを受け付けました。</h3>
+                <p>内容を確認のうえ、2営業日以内に担当者よりご連絡します。</p>
+                <button type="button" id="form-back">入力画面に戻る</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer-head">
+          <a class="logo footer-logo" href="#top">株式会社モチツモタレツ</a>
+          <a class="footer-contact-link" href="#contact">
+            お問い合わせ <span aria-hidden="true">→</span>
+          </a>
+        </div>
+        <div class="footer-main">
+          <div class="footer-message">
+            <span>ABOUT US</span>
+            <p>
+              Webアプリケーション開発を、
+              <br />
+              少人数の開発チームで。
+            </p>
+          </div>
+          <div class="footer-company">
+            <p>COMPANY</p>
+            <dl>
+              <div>
+                <dt>会社名</dt>
+                <dd>株式会社モチツモタレツ</dd>
+              </div>
+              <div>
+                <dt>代表者</dt>
+                <dd>山田 太郎</dd>
+              </div>
+              <div>
+                <dt>所在地</dt>
+                <dd>東京都渋谷区</dd>
+              </div>
+              <div>
+                <dt>設立</dt>
+                <dd>2021年4月</dd>
+              </div>
+              <div>
+                <dt>事業内容</dt>
+                <dd>Webアプリケーションの企画・開発・保守</dd>
+              </div>
+              <div>
+                <dt>メンバー数</dt>
+                <dd>3名</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 株式会社モチツモタレツ</span>
+          <span>WEB APPLICATION DEVELOPMENT</span>
+          <a href="#top">ページ上部へ ↑</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
